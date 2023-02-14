@@ -12,6 +12,10 @@
         },
         "HEROKU_APP_NAME": {
             "description": "The exact 'App Name' of your heroku app."
+        },
+        "NANGO_DATABASE_URL": {
+            "description": "Fill once app is deployed using the 'DATABASE_URL' Heroku config var and appending '?sslmode=no-verify'.",
+            "value": "FILL-LATER"
         }
     },
     "addons": [
