@@ -10,12 +10,8 @@
             "generator": "secret",
             "description": "Unique install ID"
         },
-        "SERVER_PORT": {
-            "description": "Port to listen to https requests on",
-            "value": "443"
-        },
         "NANGO_SERVER_URL": {
-            "description": "Environment variable for the URL where the nango server is deployed on"
+            "description": "The Heroku server full URL"
         }
     },
     "addons": [
