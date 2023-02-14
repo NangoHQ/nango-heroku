@@ -10,8 +10,8 @@
             "generator": "secret",
             "description": "Unique install ID"
         },
-        "NANGO_SERVER_URL": {
-            "description": "The Heroku server full URL"
+        "HEROKU_APP_NAME": {
+            "description": "The exact 'App Name' of your heroku app."
         }
     },
     "addons": [
