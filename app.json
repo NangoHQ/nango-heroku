@@ -9,6 +9,14 @@
         "NANGO_INSTALL_ID": {
             "generator": "secret",
             "description": "Unique install ID"
+        },
+        "NANGO_DASHBOARD_USERNAME": {
+          "description": "The username to access Nango's dashboard.",
+          "value": "nango"
+        },
+        "NANGO_DASHBOARD_PASSWORD": {
+          "description": "The password to access Nango's dashboard.",
+          "value": "nango"
         }
     },
     "addons": [
