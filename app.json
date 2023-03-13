@@ -16,7 +16,7 @@
         },
         "NANGO_DASHBOARD_PASSWORD": {
           "description": "The password to access Nango's dashboard.",
-          "value": "nango"
+          "generator": "secret"
         }
     },
     "addons": [
